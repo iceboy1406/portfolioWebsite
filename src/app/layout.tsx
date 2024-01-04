@@ -4,7 +4,6 @@ import 'styles/global.css'
 import 'styles/hamburger.css'
 
 const notoSans = Noto_Sans({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
     title: 'Eko Susilo - A Passionate Frontend Developer',
     description:
@@ -57,6 +56,9 @@ export const metadata: Metadata = {
         locale: 'en_US',
     },
     metadataBase: new URL('https://susiloeko.my.id'),
+    verification: {
+      google: 'z1R4nJ9K4dZ7tix-52NBpttN1fq9wulqlJjsB7XgC8c'
+    }
 }
 
 const jsonLD = {
