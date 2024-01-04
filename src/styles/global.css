@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+
+header.is-scrolled {
+    position: fixed;
+    animation: show-up .3s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+@keyframes show-up {
+    from {
+        top: -96px;
+    }
+    to {
+        top: 0px;
+    }
+}
