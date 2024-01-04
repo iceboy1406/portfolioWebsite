@@ -31,7 +31,7 @@ const experienceSectionData = {
                 • Implement Tanstack Query for fetching and caching data from API </br>
                 • Implement React Hook Form for realtime Form Validation for better User Experience </br>
                 • Handle State Management using Redux Toolkit and Zustand </br>
-                • Create Content Management System for Community Content using TiptapI
+                • Create Content Management System for Community Content using Tiptap
             `,
         },
     ],
