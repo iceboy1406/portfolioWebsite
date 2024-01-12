@@ -57,8 +57,11 @@ export const metadata: Metadata = {
     },
     metadataBase: new URL('https://susiloeko.my.id'),
     verification: {
-      google: 'z1R4nJ9K4dZ7tix-52NBpttN1fq9wulqlJjsB7XgC8c'
-    }
+        google: 'z1R4nJ9K4dZ7tix-52NBpttN1fq9wulqlJjsB7XgC8c',
+    },
+    other: {
+        'msvalidate.01': '2D33601755250B481A5E22476B8CDB11',
+    },
 }
 
 const jsonLD = {
