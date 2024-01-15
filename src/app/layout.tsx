@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     metadataBase: new URL('https://susiloeko.my.id'),
     verification: {
         google: 'z1R4nJ9K4dZ7tix-52NBpttN1fq9wulqlJjsB7XgC8c',
-        yandex: '802906c95e945eff'
+        yandex: '8193f67584db1802'
     },
     other: {
         'msvalidate.01': '2D33601755250B481A5E22476B8CDB11',
