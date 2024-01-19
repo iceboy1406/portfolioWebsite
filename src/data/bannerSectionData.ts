@@ -1,6 +1,6 @@
 const bannerSectionData = {
     photo: {
-        src: '/assets/images/photo-profile.webp',
+        src: '/assets/images/eko-susilo-photo-profile.webp',
         alt: 'Eko Susilo Photo Profile'
     },
     label: 'HI EVERYONE, I AM',
