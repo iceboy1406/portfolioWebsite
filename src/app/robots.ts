@@ -4,8 +4,8 @@ export default function robots(): MetadataRoute.Robots {
     return {
         rules: {
             userAgent: '*',
-            disallow: '',
+            allow: '/',
         },
-        sitemap: 'https://me.susiloeko.my.id/sitemap.xml',
+        sitemap: 'https://www.susiloeko.my.id/sitemap.xml',
     }
 }

@@ -20,14 +20,11 @@ export const metadata: Metadata = {
         'nearven',
     ],
     alternates: {
-        canonical: 'https://me.susiloeko.my.id',
-        languages: {
-            'en-US': 'https://nextjs.org/en-US',
-        },
+        canonical: 'https://www.susiloeko.my.id',
     },
     authors: {
         name: 'Eko Susilo',
-        url: 'https://me.susiloeko.my.id',
+        url: 'https://www.susiloeko.my.id',
     },
     publisher: 'Eko Susilo',
     creator: 'Eko Susilo',
@@ -38,18 +35,19 @@ export const metadata: Metadata = {
             index: true,
             follow: true,
         },
+        
     },
-    assets: 'https://me.susiloeko.my.id/assets',
+    assets: 'https://www.susiloeko.my.id/assets',
     category: 'technology',
     openGraph: {
         type: 'profile',
         title: 'Eko Susilo - A Passionate Frontend Developer',
         description:
             'I am passionate Frontend Developer. I love to build modern and futuristic website with high performance and SEO friendly.',
-        url: 'https://me.susiloeko.my.id',
+        url: 'https://www.susiloeko.my.id',
         siteName: 'Eko Susilo - Portfolio Website',
         images: {
-            url: 'https://me.susiloeko.my.id/assets/images/og.jpg',
+            url: 'https://www.susiloeko.my.id/assets/images/og.jpg',
             width: 1440,
             height: 810,
         },
@@ -71,8 +69,8 @@ const jsonLD = {
     name: 'Eko Susilo',
     jobTitle: 'Frontend Developer',
     gender: 'male',
-    url: 'https://me.susiloeko.my.id',
-    image: 'https://me.susiloeko.my.id/assets/images/photo-profile.webp',
+    url: 'https://www.susiloeko.my.id',
+    image: 'https://www.susiloeko.my.id/assets/images/photo-profile.webp',
     address: {
         '@type': 'PostalAddress',
         streetAddress: 'Purwokerto, Central Java, Indonesia',
