@@ -69,7 +69,7 @@ const ProjectSection = () => {
                                     </Link>
                                 </div>
                             </div>
-                            <p className="text-muted font-medium text-base">
+                            <p className="text-muted text-base">
                                 {project.description}
                             </p>
                             <div className="flex gap-2 items-center">
