@@ -31,10 +31,10 @@ const ExperienceSection = () => {
                                 <h3 className="text-white font-bold text-xl leading-[1.5]">
                                     {education.schoolName}
                                 </h3>
-                                <p className="text-muted font-medium text-sm">
+                                <p className="text-muted text-sm">
                                     {education.studyTime}
                                 </p>
-                                <p className="text-muted font-medium text-base">
+                                <p className="text-muted text-base">
                                     {education.major}
                                 </p>
                             </article>
@@ -72,13 +72,13 @@ const ExperienceSection = () => {
                                     <h3 className="text-white font-bold text-xl leading-[1.5]">
                                         {workingExperience.companyName}
                                     </h3>
-                                    <p className="text-muted font-medium text-base">
+                                    <p className="text-muted text-base">
                                         {workingExperience.position}
                                     </p>
-                                    <p className="text-muted font-medium text-sm">
+                                    <p className="text-muted text-sm">
                                         {workingExperience.workTime}
                                     </p>
-                                    <p className="text-muted font-medium text-base" dangerouslySetInnerHTML={{__html: workingExperience.description}} />
+                                    <p className="text-muted mt-4 text-base" dangerouslySetInnerHTML={{__html: workingExperience.description}} />
                                 </article>
                             </div>
                         )

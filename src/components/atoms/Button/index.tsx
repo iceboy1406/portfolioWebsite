@@ -26,7 +26,7 @@ const Button = forwardRef(
         case 'normal':
           return 'px-14 py-4 text-base font-semibold'
         case 'small':
-          return 'px-8 py-2.5 text-sm font-medium'
+          return 'px-8 py-2.5 text-sm '
       }
     }
     const getStyleStyles = (): string => {

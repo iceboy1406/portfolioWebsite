@@ -13,7 +13,7 @@ const BannerSection = () => {
                     {bannerSectionData.label}
                 </p>
                 <h1 className="text-white font-bold text-5xl leading-[1.5]">{bannerSectionData.title}</h1>
-                <p className="text-muted font-medium text-base mt-4">
+                <p className="text-muted text-base mt-4">
                     {bannerSectionData.description}
                 </p>
                 <div className="flex flex-col items-center gap-2 mt-8 md:flex-row w-full">
