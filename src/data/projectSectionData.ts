@@ -153,27 +153,31 @@ const projectSectionData = {
             ],
         },
         {
-            name: 'Cloudify',
+            name: 'Save From Youtube',
             description:
-                'Cloudify is a landing page for smart workspace repository application.',
+                'Provide service to download any video or audio from youtube with various formats and qualities.',
             imagePreview: {
-                src: '/assets/images/projects/cloudify.webp',
-                alt: 'Cloudify Preview',
+                src: '/assets/images/projects/savefromyoutube.webp',
+                alt: 'Save From Youtube Preview',
             },
-            codeRepositoryUrl: 'https://github.com/iceboy1406/cloudify',
-            demoUrl: 'https://cloudify.vercel.app/',
+            codeRepositoryUrl: 'https://github.com/iceboy1406/youtube-downloader',
+            demoUrl: 'https://savefromyoutube.vercel.app/',
             techUsed: [
+                {
+                    name: 'Next JS',
+                    iconSrc: '/assets/images/skills/nextjs.svg',
+                },
                 {
                     name: 'React JS',
                     iconSrc: '/assets/images/skills/react.svg',
                 },
                 {
-                    name: 'CSS',
-                    iconSrc: '/assets/images/skills/css.svg',
+                    name: 'Tailwind CSS',
+                    iconSrc: '/assets/images/skills/tailwind.svg',
                 },
                 {
-                    name: 'Javascript',
-                    iconSrc: '/assets/images/skills/js.svg',
+                    name: 'Typescript',
+                    iconSrc: '/assets/images/skills/ts.svg',
                 },
             ],
         },
