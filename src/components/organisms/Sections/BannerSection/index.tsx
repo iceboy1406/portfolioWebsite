@@ -5,6 +5,17 @@ import bannerSectionData from 'data/bannerSectionData'
 import Image from 'next/image'
 
 const BannerSection = () => {
+    function scrollToTargetSection(id: string) {
+        const targetSection = document.querySelector<HTMLElement>(
+            `section[data-id=${id}]`
+        )
+        if (targetSection) {
+            window.scrollTo({
+                behavior: 'smooth',
+                top: targetSection.offsetTop - (window.innerWidth >= 1024 ? 104 : 96),
+            })
+        }
+    }
 
     return (
         <section className="flex flex-col-reverse gap-8 justify-between items-center lg:flex-row ">
@@ -29,6 +40,7 @@ const BannerSection = () => {
                         style="light"
                         color="white"
                         className='w-full md:w-fit'
+                        onClick={() => scrollToTargetSection("skills")}
                     />
                 </div>
             </aside>
