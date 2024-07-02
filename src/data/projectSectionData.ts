@@ -181,6 +181,34 @@ const projectSectionData = {
                 },
             ],
         },
+        {
+            name: 'Law Fellas 2024',
+            description:
+                'Landing page for local concert held by BEM Fakultas Hukum Universitas Jenderal Soedirman.',
+            imagePreview: {
+                src: '/assets/images/projects/lawfellas.webp',
+                alt: 'Law Fellas 2024 Preview',
+            },
+            demoUrl: 'https://lawfellas2024.com/',
+            techUsed: [
+                {
+                    name: 'Next JS',
+                    iconSrc: '/assets/images/skills/nextjs.svg',
+                },
+                {
+                    name: 'React JS',
+                    iconSrc: '/assets/images/skills/react.svg',
+                },
+                {
+                    name: 'Tailwind CSS',
+                    iconSrc: '/assets/images/skills/tailwind.svg',
+                },
+                {
+                    name: 'Typescript',
+                    iconSrc: '/assets/images/skills/ts.svg',
+                },
+            ],
+        },
     ],
 }
 

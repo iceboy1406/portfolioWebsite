@@ -35,22 +35,24 @@ const ProjectSection = () => {
                                     {project.name}
                                 </h3>
                                 <div className="flex items-center gap-2">
-                                    <Link
-                                        href={project.codeRepositoryUrl}
-                                        title="Source Code"
-                                        target="_blank"
-                                    >
-                                        <div className="p-1 bg-light w-8 h-8 flex justify-center items-center rounded-md hover:brightness-90">
-                                            <Image
-                                                src="/assets/images/source-code.svg"
-                                                alt="Source Code Icon"
-                                                width={20}
-                                                height={20}
-                                                unoptimized
-                                                loading='lazy'
-                                            />
-                                        </div>
-                                    </Link>
+                                    {project.codeRepositoryUrl &&
+                                        <Link
+                                            href={project.codeRepositoryUrl}
+                                            title="Source Code"
+                                            target="_blank"
+                                        >
+                                            <div className="p-1 bg-light w-8 h-8 flex justify-center items-center rounded-md hover:brightness-90">
+                                                <Image
+                                                    src="/assets/images/source-code.svg"
+                                                    alt="Source Code Icon"
+                                                    width={20}
+                                                    height={20}
+                                                    unoptimized
+                                                    loading='lazy'
+                                                />
+                                            </div>
+                                        </Link>
+                                    }
                                     <Link
                                         href={project.demoUrl}
                                         title="Go to Demo"
