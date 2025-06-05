@@ -153,35 +153,6 @@ const projectSectionData = {
             ],
         },
         {
-            name: 'Save From Youtube',
-            description:
-                'Provide service to download any video or audio from youtube with various formats and qualities.',
-            imagePreview: {
-                src: '/assets/images/projects/savefromyoutube.webp',
-                alt: 'Save From Youtube Preview',
-            },
-            codeRepositoryUrl: 'https://github.com/iceboy1406/youtube-downloader',
-            demoUrl: 'https://savefromyoutube.vercel.app/',
-            techUsed: [
-                {
-                    name: 'Next JS',
-                    iconSrc: '/assets/images/skills/nextjs.svg',
-                },
-                {
-                    name: 'React JS',
-                    iconSrc: '/assets/images/skills/react.svg',
-                },
-                {
-                    name: 'Tailwind CSS',
-                    iconSrc: '/assets/images/skills/tailwind.svg',
-                },
-                {
-                    name: 'Typescript',
-                    iconSrc: '/assets/images/skills/ts.svg',
-                },
-            ],
-        },
-        {
             name: 'Law Fellas 2024',
             description:
                 'Landing page for local concert held by BEM Fakultas Hukum Universitas Jenderal Soedirman.',
@@ -189,7 +160,7 @@ const projectSectionData = {
                 src: '/assets/images/projects/lawfellas.webp',
                 alt: 'Law Fellas 2024 Preview',
             },
-            demoUrl: 'https://lawfellas2024.com/',
+            demoUrl: 'https://lawfellas.pages.dev/',
             techUsed: [
                 {
                     name: 'Next JS',
